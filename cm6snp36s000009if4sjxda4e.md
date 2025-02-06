@@ -5,11 +5,12 @@ seoDescription: "Learn the basics of dimensional modeling, how to identify dimen
 datePublished: Thu Jan 30 2025 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm6snp36s000009if4sjxda4e
 slug: dimensional-modelling-a-beginners-take
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1738879744068/83aac63b-e952-441e-a14b-4d85d490dd63.webp
 tags: data, data-science, analytics-engineering
 
 ---
 
-*This article is based on the content from Zach Wilson’s Data Engineering YouTube bootcamp.*
+*This article is based on my learning and the content from Zach Wilson’s Data Engineering YouTube bootcamp.*
 
 ### TLDR;
 
@@ -141,7 +142,7 @@ SELECT -- COALESCE of ids
 
 ---
 
-### Questions, to ask?
+## Questions to ask?
 
 Use these follow ups as pointers before you begin your dimensional modelling the next time:
 
@@ -152,4 +153,4 @@ Use these follow ups as pointers before you begin your dimensional modelling the
 3. How will slowly changing dimensions be handled, and what type of changes are expected?
     
 
-I appreciate your time in reading through this. In the next article, I’ll share my learnings on Fact Modelling. Stay curious!
+I appreciate your time reading through this. In the next article, I’ll share my learnings on Fact Modelling. Stay curious!
