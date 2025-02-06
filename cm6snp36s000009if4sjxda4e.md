@@ -65,9 +65,9 @@ To answer the question that arises, how can one develop master data tables which
 
 Depending on the data, a few ways that can help:
 
-* **Cumulative Table Design**
-    
-    Based on a 2 table method where “yesterday” and “today” tables are cumulated to cover the entire scope of the dimensions for the dataset. Following steps are performed on the tables:
+### **Cumulative Table Design**
+
+* Based on a 2 table method where “yesterday” and “today” tables are cumulated to cover the entire scope of the dimensions for the dataset. Following steps are performed on the tables:
     
     * A FULL OUTER JOIN (betw. yesterday and today)
         
@@ -133,9 +133,10 @@ SELECT -- COALESCE of ids
         
         * Type 2 looks at a window time frame, allowing to track everything between the two dates (hence maintaining idempotency). You can learn more about the other types [here](https://github.com/DataExpert-io/data-engineer-handbook/blob/main/bootcamp/materials/1-dimensional-data-modeling/visual%20notes/02__Idempotency_SCD.png).
             
-* **Run length Encoding compression**
-    
-    * Bring in the count-value pair compression indicating how many times the element repeats itself in the same pattern in the table.
+
+### **Run length Encoding compression**
+
+* * Bring in the count-value pair compression indicating how many times the element repeats itself in the same pattern in the table.
         
         ![Run Length Encoding Compression - Table example](https://cdn.hashnode.com/res/hashnode/image/upload/v1738795132198/40e14cc7-b622-481e-9673-125f1b63852f.png align="center")
         
