@@ -5,6 +5,7 @@ seoDescription: "Learn the basics of dimensional modeling, how to identify dimen
 datePublished: Thu Jan 30 2025 04:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: cm6snp36s000009if4sjxda4e
 slug: dimensional-modelling-a-beginners-take
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738879828958/b1f84a43-3f1d-44bb-bd79-8d4189fd2cb4.webp
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1738879744068/83aac63b-e952-441e-a14b-4d85d490dd63.webp
 tags: data, data-science, analytics-engineering
 
