@@ -31,6 +31,8 @@ Truth always has challenges attached to it, primarily 2 in our case:
 2. The more you capture, the more is the context required = High granularity & hence more duplicates
     
 
+### Fact not so vs. Dimensions
+
 Prior to solving on the challenges, let me share about the 1v1 battle between Facts and Dimensions. This tussle is not ordinary since fact will always be dependent on the context/dimension. To table it out:
 
 | **Factor** | **Facts** | **Dimensions** |
@@ -40,9 +42,24 @@ Prior to solving on the challenges, let me share about the 1v1 battle between Fa
 | Immutability | Immutable - It is what it is - once recorded, it is part of history | Mutable - change in team name, change in location |
 | Appearance | Like Onion - has many layers which can be used for aggregations and calc. | Like Knife - slice and dice your “onion” using filtering, grouping and more. |
 
-Each fact has 4 dimensions associated with it - Who, Where, When and How
+Each fact has 4 dimensions associated with it - Who, Where, When and How. To illustrate this take an example of you travelling for vacation to Hawaii.
 
-Fact Modelling has 2 approaches to structure and store the data:
+**Fact:** You booked a flight.
+
+**Dimensions:**
+
+1. **Who:** You, the passenger who booked the flight has an ID associated.
+    
+2. **Where:** The departure and arrival locations of your flight. For example, departing from Los Angeles International Airport (LAX) and arriving at Daniel K. Inouye International Airport (HNL).
+    
+3. **When:** The date and time of your scheduled flight probably May 15, 2025, at 10:00 AM.
+    
+4. **How:** The class of service and method of booking. Giving you an upgrade to Business Class which you booked through a website.
+    
+
+### Approaches
+
+Back from the imaginary vacation, Fact Modeling has 2 approaches to structure and store the data:
 
 * Normalization - organizing data to reduce redundancy and ensure data integrity
     
@@ -61,6 +78,8 @@ To determine the right approach question about:
     
 * Reporting and analysis demands
     
+
+### Solving for Challenges
 
 Drawing back to the challenges, to solve for higher volume of data methods of sampling and bucketing are advised. To resolve for duplication, Streaming and Micro-batching are suggested.
 
@@ -88,7 +107,7 @@ And when looking to analyze the records, **have a reason associated** with every
 
 ## Questions to ask
 
-Use the below questions as a reference, the next time you think for fact modelling:
+Use the below questions as a reference, the next time you think for fact modeling:
 
 1. What specific business questions do we need the fact data to answer?
     
