@@ -61,11 +61,11 @@ Each fact has 4 dimensions associated with it - Who, Where, When and How. To ill
 
 Back from the imaginary vacation, Fact Modeling has 2 approaches to structure and store the data:
 
-* Normalization - organizing data to reduce redundancy and ensure data integrity
+* **Normalization** - organizing data to reduce redundancy and ensure data integrity
     
     * Not having any dimensional attributes, just IDs to join on.
         
-* Denormalization - adding redundant data to improve read performance and simplify queries.
+* **Denormalization** \- adding redundant data to improve read performance and simplify queries.
     
     * Brings additional dimensional attributes with more storage.
         
@@ -91,7 +91,7 @@ Drawing back to the challenges, to solve for higher volume of data methods of sa
 
 The above ones are algorithmic methods that can be implemented, on an analytical scale, root cause analysis (identifying the issues with data quality or performance) and gap analysis (comparing the current state with the desire state to identify improvements) can be conducted to identify the potential reduction of volume in data.
 
-TLDR; for Root Cause and Gap Analysis shared below.
+TLDR; of Root Cause and Gap Analysis shared below.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1738872314531/5dcabd46-9316-4bfd-ad04-f8056f9cf3a9.png align="center")
 
