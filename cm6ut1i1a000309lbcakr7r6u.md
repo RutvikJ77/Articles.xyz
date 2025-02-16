@@ -12,7 +12,7 @@ tags: analytics, data, dataengineering
 
 *This article is based on my learnings and the content from Zach Wilson’s Data Engineering YouTube bootcamp.*
 
-TLDR;
+### TLDR;
 
 This article explores the concept of fact modeling in data engineering, highlighting the distinction between facts and dimensions. It discusses the challenges of high data volume and granularity, and compares normalization and denormalization approaches for structuring data. The article also suggests methods like sampling, bucketing, streaming, and micro-batching to manage data volume and duplication. It provides guidance on identifying facts versus dimensions and offers questions to consider when engaging in fact modeling.
 
@@ -65,7 +65,7 @@ Back from the imaginary vacation, Fact Modeling has 2 approaches to structure an
     
     * Not having any dimensional attributes, just IDs to join on.
         
-* **Denormalization** \- adding redundant data to improve read performance and simplify queries.
+* **Denormalization** - adding redundant data to improve read performance and simplify queries.
     
     * Brings additional dimensional attributes with more storage.
         
